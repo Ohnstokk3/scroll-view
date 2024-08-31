@@ -68,6 +68,7 @@ fun ScrollableSample() {
                     .background(Color.LightGray)
             ) {
                 Text(offset.toString())
+                Text(text = "area")
             }
         }
     }
